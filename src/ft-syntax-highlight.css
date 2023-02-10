@@ -27,7 +27,7 @@ pre.ft-syntax-highlight::before {
 pre.ft-syntax-highlight code {
   font-family: 'Source Code Pro', monospace;
   counter-reset: line -1;
-
+  
   display: block;
   margin: -25px 0 -28px;
   padding: 0 10px 10px 0;
@@ -1393,4 +1393,43 @@ pre.ft-syntax-highlight[data-syntax-theme="vbgreen" i][data-syntax="xml" i] code
 }
 pre.ft-syntax-highlight[data-syntax-theme="vbgreen" i][data-syntax="xml" i] code span.identifier {
   color: #3C8DCC;
+}
+
+/* GML OVERRIDES */
+/*    => GML SYNTAX HIGHLIGHTING */
+pre.ft-syntax-highlight[data-syntax="gml"] {
+  color: #C0C0C0;
+}
+pre.ft-syntax-highlight[data-syntax-theme="midnight" i][data-syntax="gml" i] code span.boolean {
+  color: #FF8080;
+}
+pre.ft-syntax-highlight[data-syntax-theme="midnight" i][data-syntax="gml" i] code span.keyword {
+  color: #FFB871;
+}
+pre.ft-syntax-highlight[data-syntax-theme="midnight" i][data-syntax="gml" i] code span.operand {
+  color: #C0C0C0;
+}
+pre.ft-syntax-highlight[data-syntax-theme="midnight" i][data-syntax="gml" i] code span.value {
+  color: #FF8080;
+}
+pre.ft-syntax-highlight[data-syntax-theme="midnight" i][data-syntax="gml" i] code span.string {
+  color: #FFFF00;
+}
+pre.ft-syntax-highlight[data-syntax-theme="midnight" i][data-syntax="gml" i] code span.comment {
+  color: #5B995B;
+}
+pre.ft-syntax-highlight[data-syntax-theme="midnight" i][data-syntax="gml" i] code span.builtin {
+  color: #58E55A;
+}
+pre.ft-syntax-highlight[data-syntax-theme="midnight" i][data-syntax="gml" i] code span.variable {
+  color: #B2B1FF;
+}
+pre.ft-syntax-highlight[data-syntax-theme="midnight" i][data-syntax="gml" i] code span.macro {
+  color: #FF5B5B;
+}
+pre.ft-syntax-highlight[data-syntax-theme="midnight" i][data-syntax="gml" i] code span.local {
+  color: #FFF899;
+}
+pre.ft-syntax-highlight[data-syntax-theme="midnight" i][data-syntax="gml" i] code span.global {
+  color: #FF7EFF;
 }
